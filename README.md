@@ -9,8 +9,8 @@ Objectifs du projet :
 
 - Concevoir une application permettant à l'utilisateur de prédire le risque de développer l'une des maladies suivantes : 
 
-Diabètes
-Cancer du sein
-Maladie rénale chronique
-Maladie chronique cardiaque
-Maladie du foie
+_Diabètes
+_Cancer du sein
+_Maladie rénale chronique
+_Maladie chronique cardiaque
+_Maladie du foie
