@@ -1971,7 +1971,7 @@ def main():
                 X_rff_train, X_rff_test, y_rff_train, y_rff_test = train_test_split(X_f, y_f, test_size = 0.25, random_state=random_state)
                 
                 # Sampling strategy
-                sampling_strategy = {0: 402, 1: 402}
+                sampling_strategy = {0: 400, 1: 400}
                 X_rff_resampled, y_rff_resampled = SMOTE(sampling_strategy = sampling_strategy).fit_resample(X_rff_train, y_rff_train)
 
                 random_forest_model_rff = RandomForestClassifier(random_state = random_state)
