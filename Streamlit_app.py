@@ -134,7 +134,7 @@ def main():
             # Afficher une série de graphiques
             st.subheader("Graphiques :")
 
-            selected_graph_type = st.selectbox("Sélectionnez le type de graphique", ["Boxplot", "Heatmap", "Analyse en Composantes Principales"])
+            selected_graph_type = st.selectbox("Sélectionnez le type de graphique", ["Heatmap", "Boxplot", "Analyse en Composantes Principales"])
 
             # Boxplots Diabète
             if selected_graph_type == "Boxplot":
@@ -469,7 +469,7 @@ def main():
             # Afficher une série de graphiques
             st.subheader("**Graphiques :**")
 
-            selected_graph_type = st.selectbox("Sélectionnez le type de graphique", ["Boxplot", "Heatmap", "Analyse en Composantes Principales"])
+            selected_graph_type = st.selectbox("Sélectionnez le type de graphique", ["Heatmap", "Boxplot", "Analyse en Composantes Principales"])
             
             # Boxplots Maladies rénales
             if selected_graph_type == "Boxplot":
@@ -763,7 +763,7 @@ def main():
             # Afficher une série de graphiques
             st.subheader("**Graphiques :**")
 
-            selected_graph_type = st.selectbox("Sélectionnez le type de graphique", ["Boxplot", "Heatmap", "Analyse en Composantes Principales"])
+            selected_graph_type = st.selectbox("Sélectionnez le type de graphique", ["Heatmap", "Boxplot", "Analyse en Composantes Principales"])
 
             # Boxplots Maladies du foie
             if selected_graph_type == "Boxplot":
