@@ -40,7 +40,7 @@ def set_bg_hack_url():
          unsafe_allow_html=True
      )
 
-logo_url = "https://images.teamtailor-cdn.com/images/s3/teamtailor-production/logotype-v3/image_uploads/4b3f0830-1d6e-43d9-87e2-b6011a00cedb/original.png"
+#logo_url = "https://images.teamtailor-cdn.com/images/s3/teamtailor-production/logotype-v3/image_uploads/4b3f0830-1d6e-43d9-87e2-b6011a00cedb/original.png"
 logo_url2 = "https://upload.wikimedia.org/wikipedia/fr/thumb/2/2a/Logo-INRAE_Transparent.svg/1200px-Logo-INRAE_Transparent.svg.png"
 st.sidebar.image(logo_url2, width=200, use_column_width=False)
 st.sidebar.image(logo_url, width=200, use_column_width=False)
